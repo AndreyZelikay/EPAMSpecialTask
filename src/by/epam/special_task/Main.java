@@ -1,7 +1,6 @@
 package by.epam.special_task;
 
 import by.epam.special_task.service.SearchService;
-
 import java.io.*;
 
 public class Main {
@@ -11,6 +10,6 @@ public class Main {
 
         SearchService searchService = new SearchService(inputStream);
 
-        System.out.println(searchService.searchDevices("laptop", "OS", "Windows"));
+        System.out.println(searchService.searchDevices("refrigerator", "height", "200"));
     }
 }
